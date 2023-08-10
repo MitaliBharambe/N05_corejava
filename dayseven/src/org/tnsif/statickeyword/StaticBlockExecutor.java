@@ -8,11 +8,12 @@ public class StaticBlockExecutor {
     * we can't assign a value for any non-static variable inside the static block*/
    static {
 	   salary=563289.23f;
+	   System.out.println(salary);
    }
    
    static void print()
    {
-	   System.out.println(salary);
+	   System.out.println("This is salary");
    }
 	public static void main(String[] args) {
 		print();
